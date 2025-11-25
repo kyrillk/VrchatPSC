@@ -20,7 +20,7 @@ jobs:
         uses: kyrillk/VrchatAPi@main
         with:
           output: 'psc_output' # Folder where the file will be saved
-          username: ${{ vars.VRCHAT_USERNAME }}
+          username: ${{ secrets.VRCHAT_USERNAME }}
           password: ${{ secrets.VRCHAT_PASSWORD }}
           key: ${{ secrets.VRCHAT_KEY }}
           groups: 'grp_24182cf8-55e4-4df9-8fe5-e62319baae9b' # REPLACE THIS with your Group ID
