@@ -53,8 +53,8 @@ jobs:
         with:
           FOLDER: ${{ env.output }}
 
-      - name: Remove unwanted page
-        run: rm -f ${{ env.output }}/data.json
+      #- name: Remove unwanted page
+      #  run: rm -f ${{ env.output }}/data.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
