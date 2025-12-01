@@ -1,4 +1,4 @@
-name: Generate VRChat PSC File
+name: Generate VRChat Permission File
 
 on:
   schedule:
